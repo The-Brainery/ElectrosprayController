@@ -1,0 +1,6 @@
+{
+  "name": "electrospray-ui-plugin",
+  "version": "0.0.0",
+  "type": "ui",
+  "script": "build/electrospray-ui-plugin.js"
+}

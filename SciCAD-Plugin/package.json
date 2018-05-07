@@ -1,0 +1,31 @@
+{
+  "name": "@scicad/electrospray-ui-plugin",
+  "version": "0.0.0",
+  "description": "Electrospray Controller for SciCAD",
+  "main": "src/electrospray-ui-plugin.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Brainery/ElectrosprayController.git"
+  },
+  "keywords": [
+    "SciCAD",
+    "Electrospray",
+    "Controller"
+  ],
+  "author": "Lucas Zeer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/The-Brainery/ElectrosprayController/issues"
+  },
+  "homepage": "https://github.com/The-Brainery/ElectrosprayController#readme",
+  "dependencies": {
+    "@scicad/ui-plugin": "^1.1.73",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.21.0",
+    "webpack": "3",
+    "yo-yo": "^1.4.1"
+  }
+}
